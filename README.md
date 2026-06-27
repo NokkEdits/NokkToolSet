@@ -98,6 +98,14 @@ Nokk Toolset is distributed as a portable, zero-install application for Windows:
 
 ---
 
+## 💡 Behind the Project & Vision
+
+Nokk Toolset was conceptualized and designed by **NokkEdits** to streamline daily media production workflows. Instead of relying on slow, ad-supported online converters, this utility was built as a premium, secure desktop alternative. 
+
+Leveraging state-of-the-art **AI-assisted software development pipelines**, the project bridges the gap between creative vision and technical execution. As a recognized creator in the editing community, my absolute priority is to distribute a tool that is **100% secure, transparent, and built to solve real creative bottlenecks.**
+
+---
+
 ## ⚖️ Legal Disclaimer
 
 Nokk Toolset is a productivity utility designed for personal backups, local formatting, and downloading open-source media. The developer assumes no liability for copyright infringement or unauthorized actions performed by end-users.
