@@ -1,4 +1,4 @@
-# Nokk Toolset
+# Nokk ToolSet
 
 A premium desktop application designed for high-performance media downloading, video/audio conversion, and targeted file compression. Built with **Electron**, **HTML5/CSS3**, **Vanilla JavaScript**, and powered locally by **yt-dlp** and **FFmpeg**.
 
