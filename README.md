@@ -6,6 +6,19 @@ Features a highly refined, hardware-accelerated **dark glassmorphism user interf
 
 ---
 
+## 📥 Get Access & Download
+
+Nokk Toolset is a subscription-based utility software. To download the application and activate your lifetime/active license:
+
+1. **Subscribe on Buy Me a Coffee:**
+   Go to [https://buymeacoffee.com/nokk/membership](https://buymeacoffee.com/nokk/membership) and subscribe to the active membership tier.
+2. **Download the App:**
+   Upon subscribing, you will instantly receive the secure **Google Drive download link** for the latest portable package (`Nokk_Toolset_Portable.zip`) in your welcome email or members-only posts.
+3. **Activate & Run:**
+   Extract the zip archive anywhere, launch **`Nokk Toolset.exe`**, enter the email associated with your Buy Me a Coffee subscription, and click **Activate Now**.
+
+---
+
 ## 🚀 Key Features
 
 ### 1. 📥 Multi-Platform Media Downloader
