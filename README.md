@@ -1,8 +1,8 @@
 # Nokk ToolSet
 
-A premium desktop application designed for high-performance media downloading, video/audio conversion, and targeted file compression. Built with **Electron**, **HTML5/CSS3**, **Vanilla JavaScript**, and powered locally by **yt-dlp** and **FFmpeg**.
+A premium, hardware-accelerated desktop application designed for high-performance media downloading, video/audio conversion, target size file compression, and P2P torrent transfers. Built using **Electron**, **HTML5/CSS3**, **Vanilla JavaScript**, and powered locally by **yt-dlp**, **FFmpeg**, and **WebTorrent**.
 
-Features a highly refined, hardware-accelerated **dark glassmorphism user interface** (Acrylic/Mica on Windows).
+Features a highly refined, premium **dark glassmorphism user interface** (Acrylic/Mica feel on Windows).
 
 ![Nokk Toolset Showcase](showcase.gif)
 
@@ -27,13 +27,29 @@ Nokk Toolset is a subscription-based utility software. To download the applicati
 - Download video and audio files from **YouTube, Twitch, Kick, TikTok, Twitter (X), Instagram, and Reddit**.
 - Support for single-link downloading, quality preference matching, and **batch downloading** (multiple links, one per line).
 
-### 2. ✂️ VOD Downloader & Visual Timeline Trimmer
+### 2. ⚡ VOD Downloader & Visual Timeline Trimmer
 - Analyzes URLs dynamically to retrieve streams/VOD metadata (Title, views, thumbnail, exact durations, and format options).
 - Integrates a **custom double-ended range trimmer slider**.
 - Drag start/end handles to select the segment of interest visually with floating time indicators (`hh:mm:ss`).
 - **Fast Chunk Downloading:** Streams and downloads only the selected range using `yt-dlp --download-sections`. Saves gigabytes of bandwidth and crops VODs in seconds.
 
-### 3. 🎬 Video to GIF with Advanced Editor & Optimizer
+### 3. 🌐 P2P Torrent Downloader
+- Download files at maximum bandwidth rates directly via BitTorrent P2P.
+- Supports pasting **Magnet Links** or dragging and dropping local **.torrent files**.
+- Displays real-time download and upload speeds (MB/s), connected peer counts, downloaded size ratios, and accurate ETA timelines.
+- Automatically reveals the downloaded folder in Windows Explorer upon completion.
+
+### 4. 🔄 Auto-Updater from Google Drive
+- Program checks for updates automatically on startup against a version metadata file hosted on Google Drive.
+- Displays a clean one-click update banner inside the application.
+- Downloads the latest ZIP package, runs a background script to cleanly overwrite application files (handling process locks), and automatically restarts the app.
+
+### 5. 🗺️ Multi-Language Localization (15 Languages)
+- Fully localized interface with support for **15 popular languages**:
+  * English, Turkish, German, Spanish, French, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Dutch, Polish.
+- Persistent language selection stored locally in preferences.
+
+### 6. 🎬 Video to GIF with Advanced Editor & Optimizer (Gif Master)
 - Convert local video files (`.mp4`, `.mov`, `.mkv`, `.avi`) to high-quality animated GIFs.
 - **Local Video Frame Preview:** Displays a live video preview and dynamically seeks (`currentTime`) to the exact frame as you drag trimmer handles.
 - **Advanced Editing & Filtering:**
@@ -46,25 +62,26 @@ Nokk Toolset is a subscription-based utility software. To download the applicati
   - **Frame Dropping:** Drop every 2nd or 3rd frame to reduce GIF size by up to 50%.
   - Custom width scales and targeted framerates.
 
-### 4. 🔄 MOV to WebM Converter
+### 7. 🔄 MOV to WebM Converter
 - Direct transcoder for Apple MOV files into modern, optimized WebM files using local VP9 and Opus encoding.
 - Preset quality toggles: *Medium/Balanced*, *High Quality (Slower)*, or *Faster Encoding*.
 
-### 5. 📉 Targeted Video Compressor
+### 8. 📉 Targeted Video Video Compressor
 - Compresses large local video files down to a specific target file size (e.g., **25 MB** for Discord Free limits, 50 MB, 100 MB, or custom target size).
 - Runs 1-pass fast H.264/AAC compression based on dynamically calculated target bitrates.
 
-### 6. 🎵 Audio Converter & Extraction
+### 9. 🎵 Audio Converter & Extraction
 - **Extractor:** Extract high-quality MP3 audio files directly from online videos (adjustable bitrates up to 320 kbps).
 - **Converter:** Transcode local audio files between **MP3, WAV, FLAC, and M4A**.
 
-### 7. 🖼️ Image Converter (includes Apple HEIC support)
+### 10. 🖼️ Image Converter (includes Apple HEIC support)
 - Batch transcode local image files between **WebP, JPEG, and PNG**.
 - Integrates Apple `.heic`/`.heif` image formats support (powered by local Pillow scripts).
 
-### 8. 🛡️ Licensing System
+### 11. 🛡️ Licensing System & Security
 - Secured via Buy Me a Coffee active membership validation.
 - Validates active licenses on-the-fly and permits offline developer trial bypass.
+- App core scripts are fully obfuscated during the build process to secure API parameters and licensing endpoints.
 
 ---
 
@@ -78,3 +95,9 @@ Nokk Toolset is distributed as a portable, zero-install application for Windows:
    Double-click **`Nokk Toolset.exe`** to run the utility suite.
 3. **SmartScreen Warning:**
    Since it is a portable unsigned binary, Windows Defender SmartScreen might show a warning on the first launch. Simply click **"More Info"** and then **"Run anyway"** to proceed.
+
+---
+
+## ⚖️ Legal Disclaimer
+
+Nokk Toolset is a productivity utility designed for personal backups, local formatting, and downloading open-source media. The developer assumes no liability for copyright infringement or unauthorized actions performed by end-users.
