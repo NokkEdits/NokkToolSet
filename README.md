@@ -59,26 +59,13 @@ Nokk Toolset is a subscription-based utility software. To download the applicati
 
 ---
 
-## 🛠️ Installation & Setup
+## 💻 Running the Application (Portable Version)
 
-1. **Prerequisites:**
-   - [Node.js](https://nodejs.org/) installed on your machine.
-   - Python installed (with `Pillow` and `pillow-heif` dependencies for HEIC conversion support: `pip install pillow pillow-heif`).
+Nokk Toolset is distributed as a portable, zero-install application for Windows:
 
-2. **Clone and Install:**
-   ```bash
-   npm install
-   ```
-
-3. **Start Development Server:**
-   ```bash
-   npm start
-   ```
-
-4. **Build Portable App:**
-   Run the PowerShell build script:
-   ```powershell
-   .\build-portable.ps1
-   ```
-   This will package the app, bake in the window executable icons using `rcedit`, and generate the final portable package at:
-   `C:\Users\furka\Desktop\Nokk_Toolset_Portable.zip`.
+1. **Extract the ZIP:**
+   Extract the downloaded `Nokk_Toolset_Portable.zip` file to any folder on your computer.
+2. **Launch the Application:**
+   Double-click **`Nokk Toolset.exe`** to run the utility suite.
+3. **SmartScreen Warning:**
+   Since it is a portable unsigned binary, Windows Defender SmartScreen might show a warning on the first launch. Simply click **"More Info"** and then **"Run anyway"** to proceed.
