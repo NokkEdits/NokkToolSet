@@ -4,6 +4,8 @@ A premium desktop application designed for high-performance media downloading, v
 
 Features a highly refined, hardware-accelerated **dark glassmorphism user interface** (Acrylic/Mica on Windows).
 
+![Nokk Toolset Showcase](showcase.gif)
+
 ---
 
 ## 📥 Get Access & Download
@@ -31,11 +33,18 @@ Nokk Toolset is a subscription-based utility software. To download the applicati
 - Drag start/end handles to select the segment of interest visually with floating time indicators (`hh:mm:ss`).
 - **Fast Chunk Downloading:** Streams and downloads only the selected range using `yt-dlp --download-sections`. Saves gigabytes of bandwidth and crops VODs in seconds.
 
-### 3. 🎬 Video to GIF with Range Trimmer
+### 3. 🎬 Video to GIF with Advanced Editor & Optimizer
 - Convert local video files (`.mp4`, `.mov`, `.mkv`, `.avi`) to high-quality animated GIFs.
-- Trims the exact conversion window visually on a visual range slider.
-- Generates high-fidelity 256-color custom palettes for clean, color-accurate GIF rendering.
-- Selectable widths (`320px`, `480px`, `640px`, or original) and frame rates (`10`, `15`, `24`, or `30` FPS).
+- **Local Video Frame Preview:** Displays a live video preview and dynamically seeks (`currentTime`) to the exact frame as you drag trimmer handles.
+- **Advanced Editing & Filtering:**
+  - **Speed Adjustments:** Playback controls for 0.5x (Slow Motion) to 2.0x (Double Speed).
+  - **Rotation & Flips:** Rotate 90° CW / 180° / 90° CCW, and mirror horizontally or vertically.
+  - **Visual Filters:** Grayscale, Sepia, Negative, Vignette, and dynamic Rainbow rolling colorize effects.
+- **Replace Color with Transparency (Chroma Key):** Select any color (White, Black, Green, or custom HEX code) to make transparent with adjustable similarity fuzz sliders.
+- **GIF Optimization & Compression:**
+  - **Palette Reduction:** Restrict color tables (256, 128, 64, or 32 max colors) to compress files.
+  - **Frame Dropping:** Drop every 2nd or 3rd frame to reduce GIF size by up to 50%.
+  - Custom width scales and targeted framerates.
 
 ### 4. 🔄 MOV to WebM Converter
 - Direct transcoder for Apple MOV files into modern, optimized WebM files using local VP9 and Opus encoding.
